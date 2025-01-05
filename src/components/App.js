@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import WeatherDisplay from './WeatherDisplay';
 
+
 const App = () => {
-  const [weather, setWeather] = useState({ temperature: 0, conditions: '' });
+  const [weather, setWeather] = useState({ temperature: 0, Conditions: '' });
 
   useEffect(() => {
-    const weatherInput = { temperature: 25, conditions: 'Sunny' }; // Correct data
+    const weatherInput = { temperature: 25, Conditions: 'Sunny' }; // Correct data
     setWeather(weatherInput);
   }, []);
 
