@@ -8,7 +8,7 @@ const WeatherDisplay = ({ weather }) => {
   return (
     <div>
       <p style={temperatureStyle}>Temperature: {weather.temperature}</p>
-      <p>Conditions: {weather.conditions}</p>
+      <p>Conditions: {weather.Conditions}</p>
       {/* Ensure the span has a style applied */}
       <span style={{ color: weather.temperature > 20 ? 'rgb(255, 0, 0)' : 'rgb(0, 0, 255)' }}>
         Weather Data
