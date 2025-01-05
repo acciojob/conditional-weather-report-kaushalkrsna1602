@@ -5,7 +5,7 @@ const App = () => {
   const [weather, setWeather] = useState({ temperature: 0, conditions: '' });
 
   useEffect(() => {
-    const weatherInput = { temperature: 25, conditions: 'Sunny' };
+    const weatherInput = { temperature: 25, conditions: 'Sunny' }; // Correct data
     setWeather(weatherInput);
   }, []);
 
@@ -16,5 +16,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
